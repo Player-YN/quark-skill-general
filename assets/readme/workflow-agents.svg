@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">官方白名单与本仓库通用性</title>
+  <desc id="desc">Official skill matches a fixed agent list and refuses unknown environments. This edition skips scanning and always returns generic.</desc>
+  <rect width="1200" height="400" rx="26" fill="#16130F"/>
+  <rect x="1.5" y="1.5" width="1197" height="397" rx="24.5" fill="none" stroke="#3A342C" stroke-width="1.5"/>
+  <text x="56" y="56" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">AGENT GATE</text>
+  <text x="56" y="104" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="36" font-weight="700">官方有限名单，本仓库不锁环境</text>
+  <g transform="translate(56 148)">
+    <rect width="520" height="204" rx="18" fill="#1E1B16" stroke="#FF8A2A" stroke-width="1.5"/>
+    <text x="28" y="42" fill="#FF8A2A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">OFFICIAL</text>
+    <text x="28" y="84" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="600">扫描当前 Agent</text>
+    <text x="28" y="124" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">命中 22 个白名单 ID 才继续</text>
+    <text x="28" y="158" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">未识别则拒绝，Cursor / Grok 不在列</text>
+  </g>
+  <g transform="translate(624 148)">
+    <rect width="520" height="204" rx="18" fill="#162422" stroke="#2EC8B8" stroke-width="1.5"/>
+    <text x="28" y="42" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">THIS REPO</text>
+    <text x="28" y="84" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="600">不扫描环境</text>
+    <text x="28" y="124" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">detectAgent 恒返回 generic</text>
+    <text x="28" y="158" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">任意 coding agent 都可安装使用</text>
+  </g>
+</svg>

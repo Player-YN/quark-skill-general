@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">quark-skill-general</title>
-  <desc id="desc">Official Quark Drive skill, general edition: any coding agent; delete moves into the root Recycle Bin.</desc>
+  <desc id="desc">Official Quark Drive skill only accepts a fixed agent whitelist. This edition always returns generic, so any coding agent can run it.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#16130F"/>
@@ -11,14 +11,14 @@
   <rect x="1.5" y="1.5" width="1197" height="377" rx="24.5" fill="none" stroke="#3A342C" stroke-width="1.5"/>
   <g id="title-block" transform="translate(56 48)">
     <text x="0" y="22" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">QUARK DRIVE SKILL / GENERAL</text>
-    <text x="0" y="88" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">任意 Agent 可用</text>
-    <text x="0" y="140" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="22">官方夸克网盘 skill 的普适版。</text>
-    <text x="0" y="174" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="22">Agent 恒为 generic；删除走根目录「回收站」。</text>
+    <text x="0" y="88" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="48" font-weight="700">不限官方白名单</text>
+    <text x="0" y="140" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="22">官方 skill 只认固定 Agent 列表。</text>
+    <text x="0" y="174" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="22">本仓库恒返回 generic，Cursor / Grok 等也可用。</text>
     <g transform="translate(0 214)">
-      <rect width="168" height="44" rx="12" fill="#2A2118" stroke="#FF8A2A" stroke-width="1.5"/>
-      <text x="84" y="29" text-anchor="middle" fill="#FF8A2A" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="600">v1.0.20</text>
-      <rect x="180" y="0" width="210" height="44" rx="12" fill="#162422" stroke="#2EC8B8" stroke-width="1.5"/>
-      <text x="285" y="29" text-anchor="middle" fill="#2EC8B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="600">任意 coding agent</text>
+      <rect width="188" height="44" rx="12" fill="#2A2118" stroke="#FF8A2A" stroke-width="1.5"/>
+      <text x="94" y="29" text-anchor="middle" fill="#FF8A2A" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="600">官方 22 个 ID</text>
+      <rect x="204" y="0" width="220" height="44" rx="12" fill="#162422" stroke="#2EC8B8" stroke-width="1.5"/>
+      <text x="314" y="29" text-anchor="middle" fill="#2EC8B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="600">本仓库任意 Agent</text>
     </g>
   </g>
   <g id="project-proof" transform="translate(720 44)">
@@ -30,11 +30,11 @@
     <text x="48" y="154" fill="#9A9386" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">}</text>
     <g transform="translate(28 172)">
       <rect width="168" height="92" rx="14" fill="#241C14" stroke="#FF8A2A" stroke-width="1.5"/>
-      <path d="M18 28h46c4 0 6-8 12-8h40c6 0 8 8 12 8h22v48H18z" fill="#FF8A2A"/>
-      <text x="84" y="78" text-anchor="middle" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="16">回收站</text>
+      <text x="84" y="38" text-anchor="middle" fill="#FF8A2A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">official</text>
+      <text x="84" y="68" text-anchor="middle" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">白名单才放行</text>
       <rect x="188" y="0" width="180" height="92" rx="14" fill="#162422" stroke="#2EC8B8" stroke-width="1.5"/>
-      <text x="278" y="40" text-anchor="middle" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">move</text>
-      <text x="278" y="68" text-anchor="middle" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="16">不编造 delete</text>
+      <text x="278" y="38" text-anchor="middle" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">this repo</text>
+      <text x="278" y="68" text-anchor="middle" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">不扫描环境</text>
     </g>
   </g>
 </svg>
