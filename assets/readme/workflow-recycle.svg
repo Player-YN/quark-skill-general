@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">删除语义走回收站</title>
+  <desc id="desc">先探测名为回收站的文件夹，没有则在根目录创建，再把目标 move 进去。官方 CLI 没有 delete 命令。</desc>
+  <rect width="1200" height="420" rx="26" fill="#16130F"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="24.5" fill="none" stroke="#3A342C" stroke-width="1.5"/>
+  <text x="56" y="56" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">DELETE SEMANTICS</text>
+  <text x="56" y="104" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="36" font-weight="700">删除 = 移入根目录「回收站」</text>
+  <text x="56" y="146" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">官方 CLI 没有 delete。文件仍占用容量，彻底删除请在夸克 App 里操作。</text>
+  <g transform="translate(56 186)">
+    <rect width="340" height="178" rx="18" fill="#1E1B16" stroke="#3A342C" stroke-width="1.5"/>
+    <text x="24" y="42" fill="#FF8A2A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">01</text>
+    <text x="24" y="84" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="600">探测</text>
+    <text x="24" y="122" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">search 回收站</text>
+    <text x="24" y="152" fill="#A39B8C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">--search-type dir</text>
+  </g>
+  <path d="M412 275h32" stroke="#FF8A2A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M436 268l12 7-12 7" fill="none" stroke="#FF8A2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(464 186)">
+    <rect width="340" height="178" rx="18" fill="#1E1B16" stroke="#3A342C" stroke-width="1.5"/>
+    <text x="24" y="42" fill="#FF8A2A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">02</text>
+    <text x="24" y="84" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="600">创建或选用</text>
+    <text x="24" y="122" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">0 个则根目录创建</text>
+    <text x="24" y="152" fill="#A39B8C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">--parent-fid "0"</text>
+  </g>
+  <path d="M820 275h32" stroke="#FF8A2A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M844 268l12 7-12 7" fill="none" stroke="#FF8A2A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(852 186)">
+    <rect width="292" height="178" rx="18" fill="#162422" stroke="#2EC8B8" stroke-width="1.5"/>
+    <text x="24" y="42" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">03</text>
+    <text x="24" y="84" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="600">移入</text>
+    <text x="24" y="122" fill="#C8BFB0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18">move 目标进去</text>
+    <text x="24" y="152" fill="#A39B8C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">禁止猜测多个结果</text>
+  </g>
+</svg>

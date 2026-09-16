@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-labelledby="title desc">
+  <title id="title">开始使用</title>
+  <desc id="desc">安装 CLI 并完成夸克网盘授权。</desc>
+  <rect width="1200" height="130" rx="22" fill="#16130F"/>
+  <rect x="1.5" y="1.5" width="1197" height="127" rx="20.5" fill="none" stroke="#3A342C" stroke-width="1.5"/>
+  <rect x="36" y="48" width="10" height="34" rx="5" fill="#FF8A2A"/>
+  <text x="64" y="52" fill="#2EC8B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">GET STARTED</text>
+  <text x="64" y="92" fill="#F6F0E6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="36" font-weight="700">安装并登录</text>
+</svg>
